@@ -1,0 +1,1 @@
+-- Paste the full schema from chat here (or use the previous zip if you downloaded it already).
