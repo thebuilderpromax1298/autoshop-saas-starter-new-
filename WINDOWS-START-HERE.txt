@@ -1,0 +1,11 @@
+WINDOWS START HERE
+
+1) Push this folder to GitHub (or upload via website).
+2) Open the repo → Code → Codespaces → Create codespace on main.
+3) Wait for setup. It auto-installs deps, creates .env.local, and starts the app on port 3000.
+4) Open the Ports tab → click the globe next to 3000.
+5) To connect the database:
+   - In Supabase SQL editor, run: supabase/schema.sql
+   - Fill next-app/.env.local with your Supabase keys.
+6) If you need to start manually:
+   - Ctrl+` to open terminal → cd next-app → npm run dev
